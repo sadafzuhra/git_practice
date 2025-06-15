@@ -7,3 +7,12 @@ def sub(a,b,d):
 def mult(a,b):
       return a*b  
     
+def div(a,b):
+    if b != 0:
+        return a/b
+    else:
+        print ("can't divide by zero")
+        
+    
+    
+    
